@@ -9,7 +9,7 @@ package com.xiaobei.design_pattern.simple_factory;
 public class Program {
 
     public static void main(String[] args) {
-        Operation operation = OperationFactory.createOperation("/");
+        Operation operation = OperationFactory.createOperation("+");
         operation.setNumberA((double) 1);
         operation.setNumberB((double) 0);
         Object result = null;
